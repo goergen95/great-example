@@ -1,6 +1,6 @@
 # great-example
 
-Example project to demonstrate an issue with great-docs not being able to
+Example project to demonstrate an [issue](https://github.com/posit-dev/great-docs/issues/141) with great-docs not being able to
 render an inherited docstring. The project contains two classes, `foo` and `bar`.
 `foo` supplies method `a` and `bar` supplies method `b`.
 Class `bar` inherits from `foo`, thus method `a` is inherited by `bar`. 
@@ -19,7 +19,7 @@ uv pip install -e .
 ```
 
 Commands used to build the site with great-docs (note that we have to clean up 
-the any generated files before building, otherwise we mmight build on top of the 
+the any generated files before building, otherwise we might build on top of the 
 generated files from quartodoc):
 
 ```bash
@@ -32,7 +32,7 @@ great-docs preview
 ```
 
 Commands used to build the site with quartodoc (note that we have to clean up 
-the any generated files before building, otherwise we mmight build on top of the 
+the any generated files before building, otherwise we might build on top of the 
 generated files from great-docs):
 
 ```bash
