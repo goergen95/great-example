@@ -1,0 +1,30 @@
+project:
+  type: website
+
+metadata-files:
+  - reference/_sidebar.yml
+
+format:
+  html:
+    css:
+      - reference/_styles-quartodoc.css
+
+quartodoc:
+  package: great_example
+
+  sidebar: reference/_sidebar.yml
+  css: reference/_styles-quartodoc.css
+
+  sections:
+    - title: Classes
+      desc: A parent and a child class.
+      contents:
+        - name: foo
+          members:
+            - __init__
+            - a
+        - name: bar
+          members:
+            - __init__
+            - a
+            - b

@@ -1,0 +1,18 @@
+# Great Docs Configuration
+# See https://posit-dev.github.io/great-docs/user-guide/03-configuration.html
+parser: numpy
+dynamic: true
+jupyter: python3
+reference:
+  - title: Classes
+    desc: A parent and a child class.
+    contents:
+      - name: foo
+        members:
+          - __init__
+          - a
+      - name: bar
+        members:
+          - __init__
+          - a
+          - b

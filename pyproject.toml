@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "great-example"
+description = "An example project for great-docs and quartodoc"
+readme = "README.md"
+version = "0.1"
+requires-python = ">=3.11"
+license = "MIT"
+maintainers = [{name = "Darius Görgen"}]
+dependencies = [
+    "great-docs",
+    "quartodoc",
+    "quarto-cli",
+]
+    
+[project.urls]
+Homepage = "https://goergen95.github.io/great-example/"
+Repository = "https://github.com/goergen95/great-example"
+"Issue Tracker" = "https://github.com/goergen95/great-example/issues"
