@@ -11,7 +11,7 @@ requires-python = ">=3.11"
 license = "MIT"
 maintainers = [{name = "Darius Görgen"}]
 dependencies = [
-    "great-docs",
+    "great-docs @ git+https://github.com/posit-dev/great-docs.git",
     "quartodoc",
     "quarto-cli",
 ]
