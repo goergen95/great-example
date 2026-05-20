@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "great-example"
 description = "An example project for great-docs and quartodoc"
 readme = "README.md"
-version = "0.1"
+version = "0.2.0.dev0"
 requires-python = ">=3.11"
 license = "MIT"
 maintainers = [{name = "Darius Görgen"}]
