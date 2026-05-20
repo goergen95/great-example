@@ -3,6 +3,15 @@
 parser: numpy
 dynamic: true
 jupyter: python3
+versions:
+  - label: "0.2 (dev)"
+    tag: dev
+    version: "0.2.0.dev0"
+    prerelease: true
+  - label: "0.1"
+    tag: "0.1.0"
+    git_ref: v0.1.0
+    latest: true
 reference:
   - title: Classes
     desc: A parent and a child class.
